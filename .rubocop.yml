@@ -1,0 +1,39 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.0
+
+Lint/MissingSuper:
+  Enabled: false
+
+Layout/IndentationWidth:
+  Width: 4
+
+Layout/EndOfLine:
+  Enabled: false
+
+Layout/TrailingEmptyLines:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/GuardClause:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
